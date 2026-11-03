@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-11-03T03:55:06.269650+00:00",
+  "status": "interrupted",
+  "model": "spring_only",
+  "pair_mode": "paired",
+  "resume": false,
+  "run_id": "spv2_spring_only_s42",
+  "seed": 42,
+  "run_signature": "d4470d5b33e3afdca60d029cd22cfabc7ef70f2a830357f731179a83ac26cfbb",
+  "output": "output/spatial_1km_v2/spv2_spring_only_s42",
+  "finished_utc": "2026-11-03T04:01:51.377471+00:00"
+}

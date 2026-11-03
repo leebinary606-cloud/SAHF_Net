@@ -1,0 +1,9 @@
+{
+  "selection_dataset": "validation",
+  "checkpoint": "best.pt selected by validation micro IoU at fixed threshold 0.5",
+  "threshold": 0.51,
+  "val_micro_iou": 0.7886444491654461,
+  "val_precision": 0.8769844244780458,
+  "val_recall": 0.886739101657224,
+  "test_accessed": false
+}

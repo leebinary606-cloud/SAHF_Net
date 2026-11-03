@@ -1,0 +1,9 @@
+numpy>=1.24
+pandas>=2.0
+rasterio>=1.3
+torch>=2.5
+transformers>=4.48
+tqdm>=4.66
+PyYAML>=6.0
+matplotlib>=3.7
+

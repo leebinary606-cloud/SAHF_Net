@@ -1,0 +1,11 @@
+{
+  "run_id": "spv2_spring_only_s42",
+  "model_variant": "spring_only",
+  "architecture_version": "spring_only_mit_b1_v2",
+  "pair_mode": "paired",
+  "seed": 42,
+  "run_signature": "a159e98581a8bf1e1cbf3618191d2941e8346837852ceb9f454d9bef5b1117eb",
+  "training_objective": {
+    "auxiliary_loss_weight": 0.0
+  }
+}

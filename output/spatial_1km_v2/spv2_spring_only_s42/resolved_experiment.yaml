@@ -1,0 +1,66 @@
+project:
+  name: seasonal_pv_benchmark_spatial_1km_v2
+  run_root: Output/spatial_1km_v2
+
+data:
+  # Paths are resolved from the SAHF_Net directory through workspace_root.
+  workspace_root: ..
+  patch_manifest: PreparedDataset/Metadata/spatial_1km_v2/patch_manifest.csv
+  scene_manifest: PreparedDataset/Metadata/spatial_1km_v2/scene_manifest.csv
+  normalization_file: PreparedDataset/Metadata/spatial_1km_v2/train_normalization.json
+  bands: [B2, B3, B4, B8, B11, B12]
+  patch_size: 256
+  scene_size: 512
+  normalization: joint
+  geometric_augmentation: true
+
+model:
+  architectures:
+    spring_only: spring_only_mit_b1_v2
+    autumn_only: autumn_only_mit_b1_v2
+    concat: seasonal_concat_control_v2
+    aux_only: seasonal_decoupled_auxiliary_control_v2
+  pretrained_dir: pretrained/mit-b1
+  encoder_channels: [64, 128, 320, 512]
+  decoder_channels: 128
+  drop_path_rate: 0.1
+  fusion_dropout: 0.1
+
+training:
+  device: cuda
+  seed: 42
+  epochs: 80
+  batch_size: 32
+  validation_batch_size: 16
+  num_workers: 4
+  pin_memory: false
+  persistent_workers: true
+  prefetch_factor: 2
+  amp: true
+  # BF16 is substantially more stable than FP16 for the observed non-finite gradients.
+  amp_dtype: bfloat16
+  encoder_learning_rate: 0.00008
+  new_module_learning_rate: 0.00020
+  weight_decay: 0.01
+  warmup_epochs: 3
+  scheduler: warmup_reduce_on_plateau
+  plateau_monitor: val_loss
+  plateau_factor: 0.5
+  plateau_patience: 4
+  plateau_threshold: 0.0001
+  min_encoder_learning_rate: 0.000003
+  min_new_module_learning_rate: 0.0000075
+  early_stopping_patience: 15
+  gradient_clip_norm: 1.0
+  bce_weight: 1.0
+  dice_weight: 1.0
+  # Mean of the Spring and Autumn auxiliary segmentation losses when --model aux_only is used.
+  auxiliary_loss_weight: 0.10
+  # Derived from the train manifest: (negative/positive)^power, then clipped.
+  pos_weight_power: 0.25
+  pos_weight_max: 6.0
+  validation_threshold: 0.5
+  # Used once on the fixed best-IoU checkpoint; never used for epoch selection.
+  calibration_threshold_min: 0.30
+  calibration_threshold_max: 0.80
+  calibration_threshold_step: 0.01

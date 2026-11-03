@@ -1,0 +1,11 @@
+{
+  "run_id": "spv2_autumn_only_s42",
+  "model_variant": "autumn_only",
+  "architecture_version": "autumn_only_mit_b1_v2",
+  "pair_mode": "paired",
+  "seed": 42,
+  "run_signature": "564770ac31b0b5cc92e59eeaf04243328a40fa88f6aed8085f5c2b2f67a70680",
+  "training_objective": {
+    "auxiliary_loss_weight": 0.0
+  }
+}

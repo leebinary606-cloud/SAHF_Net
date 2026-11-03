@@ -1,0 +1,7 @@
+{
+  "manifest_positive_pixels": 39446178.0,
+  "manifest_negative_pixels": 216537438.0,
+  "manifest_positive_ratio": 0.15409649498817923,
+  "pos_weight_power": 0.25,
+  "effective_pos_weight": 1.530671570323852
+}

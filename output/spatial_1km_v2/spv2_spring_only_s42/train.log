@@ -1,0 +1,67 @@
+2026-11-03 12:21:13 - spv2_spring_only_s42 - Epoch[1], Train Loss: 0.651606, Val Loss: 0.432016, Val IoU: 0.746929, Precision: 0.893847, Recall: 0.819634, Best IoU: 0.746929@1, Patience: 0/15, lr: 0.000027
+2026-11-03 12:22:15 - spv2_spring_only_s42 - Epoch[2], Train Loss: 0.390703, Val Loss: 0.348300, Val IoU: 0.761163, Precision: 0.815905, Recall: 0.918995, Best IoU: 0.761163@2, Patience: 0/15, lr: 0.000053
+2026-11-03 12:23:16 - spv2_spring_only_s42 - Epoch[3], Train Loss: 0.329295, Val Loss: 0.309515, Val IoU: 0.768060, Precision: 0.817763, Recall: 0.926670, Best IoU: 0.768060@3, Patience: 0/15, lr: 0.000080
+2026-11-03 12:24:17 - spv2_spring_only_s42 - Epoch[4], Train Loss: 0.290402, Val Loss: 0.301115, Val IoU: 0.781168, Precision: 0.866551, Recall: 0.887994, Best IoU: 0.781168@4, Patience: 0/15, lr: 0.000080
+2026-11-03 12:25:18 - spv2_spring_only_s42 - Epoch[5], Train Loss: 0.272648, Val Loss: 0.305241, Val IoU: 0.773407, Precision: 0.848931, Recall: 0.896838, Best IoU: 0.781168@4, Patience: 1/15, lr: 0.000080
+2026-11-03 12:26:19 - spv2_spring_only_s42 - Epoch[6], Train Loss: 0.257292, Val Loss: 0.291389, Val IoU: 0.776625, Precision: 0.847122, Recall: 0.903216, Best IoU: 0.781168@4, Patience: 2/15, lr: 0.000080
+2026-11-03 12:27:20 - spv2_spring_only_s42 - Epoch[7], Train Loss: 0.248659, Val Loss: 0.283804, Val IoU: 0.783056, Precision: 0.874653, Recall: 0.882038, Best IoU: 0.783056@7, Patience: 0/15, lr: 0.000080
+2026-11-03 12:28:21 - spv2_spring_only_s42 - Epoch[8], Train Loss: 0.238217, Val Loss: 0.285693, Val IoU: 0.783461, Precision: 0.853110, Recall: 0.905628, Best IoU: 0.783461@8, Patience: 0/15, lr: 0.000080
+2026-11-03 12:29:21 - spv2_spring_only_s42 - Epoch[9], Train Loss: 0.230413, Val Loss: 0.296616, Val IoU: 0.774862, Precision: 0.837305, Recall: 0.912205, Best IoU: 0.783461@8, Patience: 1/15, lr: 0.000080
+2026-11-03 12:30:20 - spv2_spring_only_s42 - Epoch[10], Train Loss: 0.226276, Val Loss: 0.289702, Val IoU: 0.780506, Precision: 0.843717, Recall: 0.912418, Best IoU: 0.783461@8, Patience: 2/15, lr: 0.000080
+2026-11-03 12:31:20 - spv2_spring_only_s42 - Epoch[11], Train Loss: 0.218944, Val Loss: 0.285737, Val IoU: 0.785187, Precision: 0.867578, Recall: 0.892102, Best IoU: 0.785187@11, Patience: 0/15, lr: 0.000080
+2026-11-03 12:32:22 - spv2_spring_only_s42 - Epoch[12], Train Loss: 0.211016, Val Loss: 0.284204, Val IoU: 0.786294, Precision: 0.864777, Recall: 0.896522, Best IoU: 0.786294@12, Patience: 0/15, lr: 0.000080
+2026-11-03 12:33:23 - spv2_spring_only_s42 - Epoch[13], Train Loss: 0.200598, Val Loss: 0.284309, Val IoU: 0.788266, Precision: 0.874447, Recall: 0.888867, Best IoU: 0.788266@13, Patience: 0/15, lr: 0.000040
+2026-11-03 12:34:25 - spv2_spring_only_s42 - Epoch[14], Train Loss: 0.195733, Val Loss: 0.292642, Val IoU: 0.785739, Precision: 0.883613, Recall: 0.876447, Best IoU: 0.788266@13, Patience: 1/15, lr: 0.000040
+2026-11-03 12:35:26 - spv2_spring_only_s42 - Epoch[15], Train Loss: 0.193090, Val Loss: 0.282502, Val IoU: 0.788621, Precision: 0.875955, Recall: 0.887765, Best IoU: 0.788621@15, Patience: 0/15, lr: 0.000040
+2026-11-03 12:36:27 - spv2_spring_only_s42 - Epoch[16], Train Loss: 0.189878, Val Loss: 0.296948, Val IoU: 0.784736, Precision: 0.879594, Recall: 0.879179, Best IoU: 0.788621@15, Patience: 1/15, lr: 0.000040
+2026-11-03 12:37:27 - spv2_spring_only_s42 - Epoch[17], Train Loss: 0.186364, Val Loss: 0.294079, Val IoU: 0.784982, Precision: 0.876198, Recall: 0.882909, Best IoU: 0.788621@15, Patience: 2/15, lr: 0.000040
+2026-11-03 12:38:27 - spv2_spring_only_s42 - Epoch[18], Train Loss: 0.180186, Val Loss: 0.294011, Val IoU: 0.783944, Precision: 0.868036, Recall: 0.890017, Best IoU: 0.788621@15, Patience: 3/15, lr: 0.000040
+2026-11-03 12:39:26 - spv2_spring_only_s42 - Epoch[19], Train Loss: 0.179137, Val Loss: 0.296243, Val IoU: 0.784538, Precision: 0.872088, Recall: 0.886555, Best IoU: 0.788621@15, Patience: 4/15, lr: 0.000040
+2026-11-03 12:40:27 - spv2_spring_only_s42 - Epoch[20], Train Loss: 0.175317, Val Loss: 0.299671, Val IoU: 0.782412, Precision: 0.868931, Recall: 0.887107, Best IoU: 0.788621@15, Patience: 5/15, lr: 0.000040
+2026-11-03 12:41:28 - spv2_spring_only_s42 - Epoch[21], Train Loss: 0.172352, Val Loss: 0.297612, Val IoU: 0.785277, Precision: 0.871011, Recall: 0.888616, Best IoU: 0.788621@15, Patience: 6/15, lr: 0.000020
+2026-11-03 12:42:29 - spv2_spring_only_s42 - Epoch[22], Train Loss: 0.169333, Val Loss: 0.304890, Val IoU: 0.783711, Precision: 0.876249, Recall: 0.881249, Best IoU: 0.788621@15, Patience: 7/15, lr: 0.000020
+2026-11-03 12:43:30 - spv2_spring_only_s42 - Epoch[23], Train Loss: 0.166383, Val Loss: 0.305791, Val IoU: 0.783388, Precision: 0.881270, Recall: 0.875826, Best IoU: 0.788621@15, Patience: 8/15, lr: 0.000020
+2026-11-03 12:44:31 - spv2_spring_only_s42 - Epoch[24], Train Loss: 0.164858, Val Loss: 0.307164, Val IoU: 0.783200, Precision: 0.878812, Recall: 0.878030, Best IoU: 0.788621@15, Patience: 9/15, lr: 0.000020
+2026-11-03 12:45:32 - spv2_spring_only_s42 - Epoch[25], Train Loss: 0.164301, Val Loss: 0.305327, Val IoU: 0.783158, Precision: 0.876041, Recall: 0.880760, Best IoU: 0.788621@15, Patience: 10/15, lr: 0.000020
+2026-11-03 12:46:32 - spv2_spring_only_s42 - Epoch[26], Train Loss: 0.162050, Val Loss: 0.308078, Val IoU: 0.782697, Precision: 0.874380, Recall: 0.881860, Best IoU: 0.788621@15, Patience: 11/15, lr: 0.000010
+2026-11-03 12:47:32 - spv2_spring_only_s42 - Epoch[27], Train Loss: 0.159566, Val Loss: 0.311384, Val IoU: 0.782792, Precision: 0.876204, Recall: 0.880133, Best IoU: 0.788621@15, Patience: 12/15, lr: 0.000010
+2026-11-03 12:48:32 - spv2_spring_only_s42 - Epoch[28], Train Loss: 0.158874, Val Loss: 0.308979, Val IoU: 0.783918, Precision: 0.878465, Recall: 0.879280, Best IoU: 0.788621@15, Patience: 13/15, lr: 0.000010
+2026-11-03 12:49:33 - spv2_spring_only_s42 - Epoch[29], Train Loss: 0.162168, Val Loss: 0.306757, Val IoU: 0.783891, Precision: 0.871964, Recall: 0.885856, Best IoU: 0.788621@15, Patience: 14/15, lr: 0.000010
+2026-11-03 12:50:34 - spv2_spring_only_s42 - Epoch[30], Train Loss: 0.156713, Val Loss: 0.310389, Val IoU: 0.782482, Precision: 0.876495, Recall: 0.879448, Best IoU: 0.788621@15, Patience: 15/15, lr: 0.000010
+2026-11-03 12:50:34 - spv2_spring_only_s42 - Early stopping at epoch 30!
+
+2026-11-03 12:50:34 - spv2_spring_only_s42 - Model weights loaded successfully! path: E:\Lebin\Experiment\SAHF_Net\output\spatial_1km_v2\spv2_spring_only_s42\checkpoints\best.pt
+2026-11-03 12:50:48 - spv2_spring_only_s42 - 
++----------+-----------+-----------+-----------+--------+----------+-------------+----------+
+| Val_Loss | Micro_IoU | Macro_IoU | Precision | Recall | F1_Score | Area_MAE_ha | Infer_ms |
++==========+===========+===========+===========+========+==========+=============+==========+
+|   0.2825 |    0.7886 |     0.767 |     0.876 | 0.8878 |   0.8818 |     24.3445 |     5.22 |
++----------+-----------+-----------+-----------+--------+----------+-------------+----------+
+
+2026-11-03 12:50:48 - spv2_spring_only_s42 - 
++----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+| Province | Scenes | Micro_IoU | Macro_IoU | Precision | Recall | F1_Score | Area_MAE_ha |
++==========+========+===========+===========+===========+========+==========+=============+
+|       AH |     14 |    0.7971 |    0.7525 |    0.8993 | 0.8752 |   0.8871 |     13.8219 |
++----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+|       HB |     18 |    0.7826 |    0.7805 |    0.8744 | 0.8817 |   0.8781 |     10.9587 |
++----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+|       JS |     14 |    0.7112 |    0.7083 |    0.8057 | 0.8585 |   0.8313 |     21.2244 |
++----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+|       NX |     14 |    0.8005 |    0.7824 |    0.9135 | 0.8662 |   0.8892 |     47.8897 |
++----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+|       QH |     13 |    0.8733 |    0.8302 |    0.9110 | 0.9547 |   0.9323 |     21.7282 |
++----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+|       YN |     20 |    0.7432 |    0.7542 |    0.8268 | 0.8803 |   0.8527 |     31.1606 |
++----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+
++-----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+| Scale_Bin | Scenes | Micro_IoU | Macro_IoU | Precision | Recall | F1_Score | Area_MAE_ha |
++===========+========+===========+===========+===========+========+==========+=============+
+|       <5% |     29 |    0.7160 |    0.7257 |    0.8193 | 0.8502 |   0.8345 |      9.1541 |
++-----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+|    5%-15% |     42 |    0.7583 |    0.7614 |    0.8623 | 0.8627 |   0.8625 |     27.5581 |
++-----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+|     >=15% |     22 |    0.8252 |    0.8319 |    0.8957 | 0.9129 |   0.9042 |     38.2331 |
++-----------+--------+-----------+-----------+-----------+--------+----------+-------------+
+

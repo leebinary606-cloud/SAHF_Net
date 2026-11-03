@@ -1,0 +1,6 @@
+{
+  "available": false,
+  "selection_dataset": "validation",
+  "reason": "model does not expose fixed seasonal candidates",
+  "test_accessed": false
+}

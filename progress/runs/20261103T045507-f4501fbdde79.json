@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-03T04:55:07.319577+00:00",
+  "status": "completed",
+  "model": "autumn_only",
+  "pair_mode": "paired",
+  "resume": false,
+  "run_id": "spv2_autumn_only_s42",
+  "seed": 42,
+  "run_signature": "564770ac31b0b5cc92e59eeaf04243328a40fa88f6aed8085f5c2b2f67a70680",
+  "output": "output/spatial_1km_v2/spv2_autumn_only_s42",
+  "best_validation_micro_iou": 0.7610235456667541,
+  "finished_utc": "2026-11-03T05:23:01.037188+00:00"
+}

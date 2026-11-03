@@ -1,0 +1,138 @@
+{
+  "candidate_run": "spv2_autumn_only_s42",
+  "reference_run": "spv2_spring_only_s42",
+  "overall": {
+    "scene_count": 93,
+    "candidate_micro_iou": 0.7610235456667541,
+    "reference_micro_iou": 0.7886212456801733,
+    "delta_micro_iou": -0.027597700013419213,
+    "delta_micro_iou_pp": -2.7597700013419213,
+    "delta_macro_scene_iou": -0.009285860388479282,
+    "delta_median_scene_iou": -0.007435614348076047,
+    "scene_wins": 32,
+    "scene_losses": 61,
+    "scene_ties": 0,
+    "spatial_block_count": 86,
+    "bootstrap_replicates": 5000,
+    "delta_micro_iou_ci95": [
+      -0.06620759610246511,
+      0.005694468441202958
+    ],
+    "delta_micro_iou_pp_ci95": [
+      -6.620759610246512,
+      0.5694468441202958
+    ]
+  },
+  "by_province": {
+    "AH": {
+      "scene_count": 14,
+      "candidate_micro_iou": 0.7889957738285569,
+      "reference_micro_iou": 0.7971388557737937,
+      "delta_micro_iou": -0.00814308194523683,
+      "delta_micro_iou_pp": -0.814308194523683,
+      "delta_macro_scene_iou": 0.014832781079641203,
+      "delta_median_scene_iou": -0.013942740817880717,
+      "scene_wins": 5,
+      "scene_losses": 9,
+      "scene_ties": 0
+    },
+    "HB": {
+      "scene_count": 18,
+      "candidate_micro_iou": 0.7744448697854596,
+      "reference_micro_iou": 0.7826326028903744,
+      "delta_micro_iou": -0.00818773310491483,
+      "delta_micro_iou_pp": -0.8187733104914829,
+      "delta_macro_scene_iou": -0.0048836144983600005,
+      "delta_median_scene_iou": -0.006780298776103921,
+      "scene_wins": 7,
+      "scene_losses": 11,
+      "scene_ties": 0
+    },
+    "JS": {
+      "scene_count": 14,
+      "candidate_micro_iou": 0.6217418318948281,
+      "reference_micro_iou": 0.711233804067364,
+      "delta_micro_iou": -0.0894919721725359,
+      "delta_micro_iou_pp": -8.949197217253591,
+      "delta_macro_scene_iou": -0.07486138369001556,
+      "delta_median_scene_iou": -0.017185443949487178,
+      "scene_wins": 3,
+      "scene_losses": 11,
+      "scene_ties": 0
+    },
+    "NX": {
+      "scene_count": 14,
+      "candidate_micro_iou": 0.8331647376274379,
+      "reference_micro_iou": 0.8005448947766309,
+      "delta_micro_iou": 0.03261984285080699,
+      "delta_micro_iou_pp": 3.261984285080699,
+      "delta_macro_scene_iou": 0.06242795984875027,
+      "delta_median_scene_iou": -0.002380645640181478,
+      "scene_wins": 6,
+      "scene_losses": 8,
+      "scene_ties": 0
+    },
+    "QH": {
+      "scene_count": 13,
+      "candidate_micro_iou": 0.7668326957557399,
+      "reference_micro_iou": 0.8732621022350404,
+      "delta_micro_iou": -0.10642940647930055,
+      "delta_micro_iou_pp": -10.642940647930054,
+      "delta_macro_scene_iou": -0.02396479347974709,
+      "delta_median_scene_iou": 0.0023866688592862895,
+      "scene_wins": 7,
+      "scene_losses": 6,
+      "scene_ties": 0
+    },
+    "YN": {
+      "scene_count": 20,
+      "candidate_micro_iou": 0.7203045327443194,
+      "reference_micro_iou": 0.7432326900563124,
+      "delta_micro_iou": -0.022928157311993047,
+      "delta_micro_iou_pp": -2.2928157311993047,
+      "delta_macro_scene_iou": -0.02488643206293219,
+      "delta_median_scene_iou": -0.015817398379418313,
+      "scene_wins": 4,
+      "scene_losses": 16,
+      "scene_ties": 0
+    }
+  },
+  "by_scale": {
+    "<5%": {
+      "scene_count": 29,
+      "candidate_micro_iou": 0.6878168709923917,
+      "reference_micro_iou": 0.7159537442460986,
+      "delta_micro_iou": -0.02813687325370684,
+      "delta_micro_iou_pp": -2.813687325370684,
+      "delta_macro_scene_iou": -0.004786245671217184,
+      "delta_median_scene_iou": -0.01230790863667064,
+      "scene_wins": 9,
+      "scene_losses": 20,
+      "scene_ties": 0
+    },
+    "5%-15%": {
+      "scene_count": 42,
+      "candidate_micro_iou": 0.7506257225582181,
+      "reference_micro_iou": 0.7582581604900551,
+      "delta_micro_iou": -0.007632437931836988,
+      "delta_micro_iou_pp": -0.7632437931836988,
+      "delta_macro_scene_iou": -0.005513721010710787,
+      "delta_median_scene_iou": -0.0032895776171222857,
+      "scene_wins": 17,
+      "scene_losses": 25,
+      "scene_ties": 0
+    },
+    ">=15%": {
+      "scene_count": 22,
+      "candidate_micro_iou": 0.7823200793868468,
+      "reference_micro_iou": 0.8251793350210668,
+      "delta_micro_iou": -0.042859255634219995,
+      "delta_micro_iou_pp": -4.2859255634219995,
+      "delta_macro_scene_iou": -0.022418527691519172,
+      "delta_median_scene_iou": -0.004946309957825301,
+      "scene_wins": 6,
+      "scene_losses": 16,
+      "scene_ties": 0
+    }
+  }
+}
